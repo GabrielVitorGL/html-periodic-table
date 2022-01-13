@@ -1,0 +1,369 @@
+body{
+	background-color: #1c1b22;
+}
+h1{
+	color: #ffff;
+	font-family: 'Century Gothic';
+	text-align: center;
+	font-size: 500%;
+	font-weight: 100;
+	margin-top: 20px;
+}
+.elementos{
+	margin-left: 304px;
+	margin-right: 304px;
+	cursor: pointer;
+	margin-top: -20px;
+}
+.nao_metais{
+	width:60px;
+	height:60px;
+	border:2px solid #9c4ef5;
+	float:left;
+	margin: 10px 0px 0px 5px;
+	border-radius:5px;
+}
+.alcalinos{
+	width:60px;
+	height:60px;
+	border:2px solid #fe642b;
+	float:left;
+	margin: 10px 0px 0px 5px;
+	border-radius:5px;
+}
+.alcalinos_terrosos{
+	width:60px;
+	height:60px;
+	border:2px solid #4dfddd;
+	float:left;
+	margin: 10px 0px 0px 5px;
+	border-radius:5px;
+}
+.transicao{
+	width:60px;
+	height:60px;
+	border:2px solid #ffe51e;
+	float:left;
+	margin: 10px 0px 0px 5px;
+	border-radius:5px;
+}
+.outros_metais{
+	width:60px;
+	height:60px;
+	border:2px solid #ff30ba;
+	float:left;
+	margin: 10px 0px 0px 5px;
+	border-radius:5px;
+}
+.semimetais{
+	width:60px;
+	height:60px;
+	border:2px solid #73ff00;
+	float:left;
+	margin: 10px 0px 0px 5px;
+	border-radius:5px;
+}
+.halogenios{
+	width:60px;
+	height:60px;
+	border:2px solid #e10d6b;
+	float:left;
+	margin: 10px 0px 0px 5px;
+	border-radius:5px;
+}
+.gases_nobres{
+	width:60px;
+	height:60px;
+	border:2px solid #00bbff;
+	float:left;
+	margin: 10px 0px 0px 5px;
+	border-radius:5px;
+}
+.lantanideos{
+	width:60px;
+	height:60px;
+	border:2px solid #12d600;
+	float:left;
+	margin: 10px 0px 0px 5px;
+	border-radius:5px;
+}
+.actinidios{
+	width:60px;
+	height:60px;
+	border:2px solid #ff69eb;
+	float:left;
+	margin: 10px 0px 0px 5px;
+	border-radius:5px;
+}
+#la{
+	margin-left: 212px;
+}
+#ac{
+	margin-left: 212px;
+}
+#nao_metais{
+	width:15px;
+	height:15px;
+	border:2px solid #9c4ef5;
+	border-radius:2px;
+	float:left;
+	margin: 120px 0px 0px -1440px;
+}
+label:first-of-type{
+	clear:both;
+	margin: -20px 0px 0px 130px;
+	color: #ffff;
+	font-family: 'Century Gothic';
+}
+#alcalinos{
+	width:15px;
+	height:15px;
+	border:2px solid #fe642b;
+	border-radius:2px;
+	float:left;
+	margin: -20px 0px 0px 35px;
+}
+label{
+	float:left;
+	margin: -20px 0px 0px 60px;
+	color: #ffff;
+	font-family: 'Century Gothic';
+}
+#semimetais{
+	width:15px;
+	height:15px;
+	border:2px solid #73ff00;
+	border-radius:2px;
+	float:left;
+	margin: -20px 0px 0px 35px;
+}
+#outros_metais{
+	width:15px;
+	height:15px;
+	border:2px solid #ff30ba;
+	border-radius:2px;
+	float:left;
+	margin: -20px 0px 0px 35px;
+}
+#lantanideos{
+	width:15px;
+	height:15px;
+	border:2px solid #12d600;
+	border-radius:2px;
+	float:left;
+	margin: -20px 0px 0px 35px;
+}
+#gases_nobres{
+	width:15px;
+	height:15px;
+	border:2px solid #00bbff;
+	border-radius:2px;
+	float:left;
+	margin: -20px 0px 0px 35px;
+}
+#alcalinos_terrosos{
+	width:15px;
+	height:15px;
+	border:2px solid #4dfddd;
+	border-radius:2px;
+	float:left;
+	margin: -20px 0px 0px 35px;
+}
+#halogenios{
+	width:15px;
+	height:15px;
+	border:2px solid #e10d6b;
+	border-radius:2px;
+	float:left;
+	margin: -20px 0px 0px 35px;
+}
+#transicao{
+	width:15px;
+	height:15px;
+	border:2px solid #ffe51e;
+	border-radius:2px;
+	float:left;
+	margin: -20px 0px 0px 35px;
+}
+#actinidios{
+	width:15px;
+	height:15px;
+	border:2px solid #ff69eb;
+	border-radius:2px;
+	float:left;
+	margin: -20px 0px 0px 35px;
+}
+h2{
+	position:relative;
+	color: #ffff;
+	font-family: 'Century Gothic';
+	text-align: center;
+	line-height: 0px;
+	font-size: 130%;
+}
+h3{
+	position:relative;
+	bottom: 4px;
+	color: #ffff;
+	font-family: 'Century Gothic';
+	text-align: center;
+	line-height: 0px;
+	font-size: 60%;
+	margin-top: 23px;
+}
+h4{
+	position:relative;
+	bottom: 4px;
+	color: #ffff;
+	font-family: 'Century Gothic';
+	text-align: center;
+	line-height: 0px;
+	font-size: 60%;
+}
+p{
+	float: left;
+	color: #ffff;
+	font-family: 'Century Gothic';
+	margin: 7px 0px 0px 2px;
+	line-height: 0px;
+	font-size: 55%;
+}
+.nao_metais h2{
+	color: #9c4ef5;
+}
+.nao_metais h3{
+	color: #9c4ef5;
+}
+.nao_metais h4{
+	color: #9c4ef5;
+}
+.nao_metais p{
+	color: #9c4ef5;
+}
+.alcalinos h2{
+	color: #fe642b;
+}
+.alcalinos h3{
+	color: #fe642b;
+}
+.alcalinos h4{
+	color: #fe642b;
+}
+.alcalinos p{
+	color: #fe642b;
+}
+.alcalinos_terrosos h2{
+	color: #4dfddd;
+}
+.alcalinos_terrosos h3{
+	color: #4dfddd;
+}
+.alcalinos_terrosos h4{
+	color: #4dfddd;
+}
+.alcalinos_terrosos p{
+	color: #4dfddd;
+}
+.transicao h2{
+	color: #ffe51e;
+}
+.transicao h3{
+	color: #ffe51e;
+}
+.transicao h4{
+	color: #ffe51e;
+}
+.transicao p{
+	color: #ffe51e;
+}
+.outros_metais h2{
+	color: #ff30ba;
+}
+.outros_metais h3{
+	color: #ff30ba;
+}
+.outros_metais h4{
+	color: #ff30ba;
+}
+.outros_metais p{
+	color: #ff30ba;
+}
+.semimetais h2{
+	color: #73ff00;
+}
+.semimetais h3{
+	color: #73ff00;
+}
+.semimetais h4{
+	color: #73ff00;
+}
+.semimetais p{
+	color: #73ff00;
+}
+.halogenios h2{
+	color: #e10d6b;
+}
+.halogenios h3{
+	color: #e10d6b;
+}
+.halogenios h4{
+	color: #e10d6b;
+}
+.halogenios p{
+	color: #e10d6b;
+}
+.gases_nobres h2{
+	color: #00bbff;
+}
+.gases_nobres h3{
+	color: #00bbff;
+}
+.gases_nobres h4{
+	color: #00bbff;
+}
+.gases_nobres p{
+	color: #00bbff;
+}
+.lantanideos h2{
+	color: #12d600;
+}
+.lantanideos h3{
+	color: #12d600;
+}
+.lantanideos h4{
+	color: #12d600;
+}
+.lantanideos p{
+	color: #12d600;
+}
+.actinidios h2{
+	color: #ff69eb;
+}
+.actinidios h3{
+	color: #ff69eb;
+}
+.actinidios h4{
+	color: #ff69eb;
+}
+.actinidios p{
+	color: #ff69eb;
+}
+#og{
+	margin-bottom: 30px;
+}
+.tabela{
+	width:1850px;
+	height:790px;
+}
+.invisivel{
+	width:60px;
+	height:60px;
+	border:2px solid #ffffff00;
+	float:left;
+	margin: 10px 0px 0px 5px;
+	border-radius:5px;
+	cursor:default;
+}
+.legenda{
+	width:1800px;
+}
